@@ -1,0 +1,33 @@
+.story-card .story-card__badge {
+  line-height: normal;
+  display: inline-block;
+  position: absolute;
+  right: 3rem;
+  bottom: 40%;
+}
+
+.story-card {
+  width: auto;
+  margin-left: 15rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+
+.story-card .ant-card-meta-title {
+  font-size: 1.5rem;
+  width: 100%;
+  white-space: inherit;
+}
+
+@media (min-width: 40rem) {
+  .story-card {
+    width: 80%;
+  }
+}
+
+@media (min-width: 60rem) {
+  .story-card {
+    width: 70%;
+  }
+}

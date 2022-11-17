@@ -1,0 +1,44 @@
+.main-header {
+  padding: 0;
+}
+
+.main-header .main-logo {
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin-right: 0;
+  margin-bottom: 0.5rem;
+  display: none;
+}
+
+.main-header .main-mobile-logo {
+  margin-left: 1rem;
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin-right: 0;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.main-nav {
+  margin-left: 1rem;
+  display: inline;
+  vertical-align: top;
+  text-align: right;
+  width: calc(100% - 80px);
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 40rem) {
+  .main-header .main-logo {
+    margin-left: 15%;
+    display: inline-block;
+  }
+
+  .main-header .main-mobile-logo {
+    display: none;
+  }
+
+  .main-nav {
+    width: calc(100% - 350px);
+  }
+}

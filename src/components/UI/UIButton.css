@@ -1,0 +1,66 @@
+.reload-button,
+.reload-button:focus {
+  vertical-align: middle;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  padding-bottom: 0;
+  padding-top: 0;
+  color: black;
+  background: rgb(255, 255, 255);
+  border-color: rgb(116, 116, 116);
+  height: 3rem;
+}
+
+.reload-button:hover,
+.reload-button:active {
+  background: white;
+  color: black;
+  border-color: rgb(201, 201, 201);
+  box-shadow:inset 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.reload-comments-btn,
+.reload-comments-btn:focus {
+  width: 5rem;
+  display: inline-block;
+  background: rgb(255, 255, 255);
+  border-color: rgb(116, 116, 116);
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+.reload-comments-btn:hover,
+.reload-comments-btn:active {
+  background: white;
+  color: black;
+  border-color: rgb(201, 201, 201);
+  box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.to-main-page-btn {
+  font-size: 3rem;
+  height: 10rem;
+  width: 100%;
+  background: black;
+  border-color: black;
+  color: white;
+}
+
+.to-main-page-btn:hover,
+.to-main-page-btn:active {
+  background: white;
+  color: black;
+  border-color: white;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 40rem) {
+  .reload-comments-btn,
+  .reload-comments-btn:focus {
+    width: 5rem;
+    top: 20px;
+    right: 20px;
+  }
+}

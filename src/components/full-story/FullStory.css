@@ -1,0 +1,27 @@
+.ant-card-head-title {
+  font-size: 1.5rem;
+  width: 100%;
+  white-space: inherit;
+}
+
+.story {
+  font-size: 1rem;
+}
+
+#story-title {
+  margin-bottom: 0;
+}
+
+#story-url {
+  text-decoration: none;
+  color: rgb(146, 145, 145);
+  font-size: 1.3rem;
+}
+
+#story-url:hover {
+  text-decoration: underline;
+}
+
+.story span {
+  color: rgb(163, 163, 163);
+}

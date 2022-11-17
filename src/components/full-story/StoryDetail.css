@@ -1,0 +1,51 @@
+.site-layout-content {
+  width: 100%;
+  margin: 1.5rem auto;
+  padding: 0;
+  background: #fff;
+  position: relative;
+}
+
+.site-layout-content h1 span {
+  color: rgb(163, 163, 163);
+  margin-left: 6px;
+}
+
+.comments-title {
+  padding-left: 10px;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.no-comments {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .site-layout-content {
+    width: 80%;
+    padding: 1rem;
+  }
+
+  .no-comments {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 60rem) {
+  .site-layout-content {
+    width: 70%;
+    padding: 1.5rem;
+  }
+  .comments-title {
+    font-size: 1.5rem;
+  }
+
+  .no-comments {
+    font-size: 1.5rem;
+  }
+}
